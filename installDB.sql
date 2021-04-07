@@ -5,6 +5,7 @@ CREATE TABLE stores(
 	address_line_2 VARCHAR(100),
 	city_id INT NOT NULL,
 	state_id INT NOT NULL,
+	district_id INT NOT NULL,
 	zip_code VARCHAR(6),
 	PRIMARY KEY (store_id)
 );
