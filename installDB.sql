@@ -18,3 +18,14 @@ CREATE TABLE stores(
       COUNTRY          VARCHAR(50),
       CODE             VARCHAR(15)
       PRIMARY KEY (CUSTOMERNUM));
+
+  CREATE TABLE PROJ
+     (PROJNO   CHAR(6)      NOT NULL,
+      PROJNAME VARCHAR(24)  NOT NULL,
+      DEPTNO   CHAR(3)      NOT NULL,
+      RESPEMP  CHAR(6)      NOT NULL,
+      PRSTAFF  DECIMAL(5,2)         ,
+      PRSTDATE DATE                 ,
+      PRENDATE DATE                 ,
+      MAJPROJ  CHAR(6)      NOT NULL);
+
